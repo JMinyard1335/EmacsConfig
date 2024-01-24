@@ -102,4 +102,5 @@
     :after org
     :custom
     (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
-  
+
+(use-package org-download)

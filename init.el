@@ -2,6 +2,9 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/ConfigSetup")
 (load-theme 'MagicMan1335 t)
+(cd "C:/Users/Jachin/")
+(setq ispell-program-name "C:/DevCornor/usr/bin/aspell.exe")
+
 
 ;; Sets up the package manageer
 (load "~/.emacs.d/ConfigSetup/package-setup.el")
@@ -26,7 +29,7 @@
  '(custom-safe-themes
    '("74d29638b9a10d294192daa063c4af1ddbf347c40f45a2637da2f3dcc5503336" default))
  '(package-selected-packages
-   '(ccls visual-fill-column lsp-java lsp-mode company-box company rainbow-delimiters origami which-key doom-modeline use-package)))
+   '(verilog-ext org-download flyspell-popup ccls visual-fill-column lsp-java lsp-mode company-box company rainbow-delimiters origami which-key doom-modeline use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

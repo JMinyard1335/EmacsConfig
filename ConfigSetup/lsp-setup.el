@@ -5,6 +5,7 @@
   (python-mode . lsp-mode)
   (c++-mode . lsp-mode)
   (c-mode . lsp-mode)
+  (verilog-mode . lsp-mode)
   :config
   (setq lsp-completion-provider :companny)
   (setq lsp-enable-which-key-integration t)
@@ -30,4 +31,6 @@
   :hook
   (java-mode . lsp-mode))
 
+(use-package verilog-ext)
+(verilog-ext-mode-setup)
 
