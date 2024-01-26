@@ -7,7 +7,7 @@
   (c-mode . lsp-mode)
   (verilog-mode . lsp-mode)
   :config
-  (setq lsp-completion-provider :companny)
+  (setq lsp-completion-provider :company)
   (setq lsp-enable-which-key-integration t)
   (setq lsp-eldoc-enable-hover t)
   (setq lsp-signature-auto-activate t)
